@@ -1,0 +1,13 @@
+{
+    "name": "healsdata/mastodon-list-engagement",
+    "type": "project",
+    "require": {
+        "pds/skeleton": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Healsdata\\MastodonListEngagement\\": "src/"
+        }
+    }
+}
