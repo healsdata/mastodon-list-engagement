@@ -1,13 +1,19 @@
 {
     "name": "healsdata/mastodon-list-engagement",
     "type": "project",
-    "require": {
-        "pds/skeleton": "^1.0"
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Healsdata\\MastodonListEngagement\\": "src/"
         }
+    },
+    "require": {
+        "php": "^7.4",
+        "pds/skeleton": "^1.0",
+        "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
