@@ -1,36 +1,23 @@
 <?php
 
+use Healsdata\MastodonListEngagement\AccountExtractor;
+use Healsdata\MastodonListEngagement\EngagementListRefresher;
+use Healsdata\MastodonListEngagement\Mastodon\Api;
+use Psr\Container\ContainerInterface;
+
 chdir(dirname(__DIR__));
 
 require_once 'vendor/autoload.php';
 
 $dotEnv = Dotenv\Dotenv::createImmutable(getcwd());
 $dotEnv->load();
-$dotEnv->required(['BEARER_TOKEN','INSTANCE_URL']);
 
-$instanceUrl = $_ENV['INSTANCE_URL'];
-$bearerToken = $_ENV['BEARER_TOKEN'];
+/** @var ContainerInterface $container */
+$container = require_once 'config/dependencies.php';
 
-$endpointBookmarks = '/api/v1/bookmarks';
+/** @var EngagementListRefresher $engagementListRefresher */
+$engagementListRefresher = $container->get(EngagementListRefresher::class);
 
-$accounts = [];
+$accountCount = $engagementListRefresher->refresh();
 
-$client = new GuzzleHttp\Client(['base_uri' => $instanceUrl]);
-
-$response = $client->get(
-    $endpointBookmarks,
-    ['headers' =>
-        [
-            'Authorization' => "Bearer {$bearerToken}"
-        ]
-    ]
-);
-$body = $response->getBody();
-
-$body = json_decode($body, true);
-
-foreach ($body as $toot) {
-    $accounts[] = $toot['account']['acct'];
-}
-
-print_r($accounts);
+print $accountCount . " accounts found and added to the engagement list";
