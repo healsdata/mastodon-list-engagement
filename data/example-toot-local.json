@@ -1,0 +1,125 @@
+{
+  "id": "109370768315709878",
+  "created_at": "2022-11-19T13:44:43.333Z",
+  "in_reply_to_id": null,
+  "in_reply_to_account_id": null,
+  "sensitive": false,
+  "spoiler_text": "",
+  "visibility": "public",
+  "language": "en",
+  "uri": "https://fosstodon.org/users/JustineSmithies/statuses/109370768315709878",
+  "url": "https://fosstodon.org/@JustineSmithies/109370768315709878",
+  "replies_count": 2,
+  "reblogs_count": 1,
+  "favourites_count": 5,
+  "edited_at": null,
+  "favourited": false,
+  "reblogged": false,
+  "muted": false,
+  "bookmarked": true,
+  "content": "<p>After reading up on simple.css by <span class=\"h-card\"><a href=\"https://fosstodon.org/@kev\" class=\"u-url mention\">@<span>kev</span></a></span> I&#39;ve decided to use it for my personal static website and code the rest by hand. Thank&#39;s for all your amazing suggestions though. 😃</p>",
+  "filtered": [],
+  "reblog": null,
+  "application": null,
+  "account": {
+    "id": "108345155439904885",
+    "username": "JustineSmithies",
+    "acct": "JustineSmithies",
+    "display_name": "Justine Smithies ~:idle: :tux:",
+    "locked": false,
+    "bot": false,
+    "discoverable": true,
+    "group": false,
+    "created_at": "2022-05-22T00:00:00.000Z",
+    "note": "<p>Friend, Lover, Sister, Mother &amp; Wife<br />Linux &amp; Tech geek :tux:<br />Mobile PinePhone and PinePhone Pro :pine64:<br />Watch PineTime :pine64:<br />Daily driver - Arch with Qtile ( Wayland ) and Bash shell. :archlinux: :terminal: :python: :vim:</p>",
+    "url": "https://fosstodon.org/@JustineSmithies",
+    "avatar": "https://cdn.fosstodon.org/accounts/avatars/108/345/155/439/904/885/original/4826577f77dcd5f0.png",
+    "avatar_static": "https://cdn.fosstodon.org/accounts/avatars/108/345/155/439/904/885/original/4826577f77dcd5f0.png",
+    "header": "https://cdn.fosstodon.org/accounts/headers/108/345/155/439/904/885/original/a106d319fd332d3f.png",
+    "header_static": "https://cdn.fosstodon.org/accounts/headers/108/345/155/439/904/885/original/a106d319fd332d3f.png",
+    "followers_count": 601,
+    "following_count": 241,
+    "statuses_count": 1139,
+    "last_status_at": "2022-11-21",
+    "noindex": true,
+    "emojis": [
+      {
+        "shortcode": "tux",
+        "url": "https://cdn.fosstodon.org/custom_emojis/images/000/010/363/original/tux.png",
+        "static_url": "https://cdn.fosstodon.org/custom_emojis/images/000/010/363/static/tux.png",
+        "visible_in_picker": true
+      },
+      {
+        "shortcode": "pine64",
+        "url": "https://cdn.fosstodon.org/custom_emojis/images/000/097/792/original/cd240aa94909422c.png",
+        "static_url": "https://cdn.fosstodon.org/custom_emojis/images/000/097/792/static/cd240aa94909422c.png",
+        "visible_in_picker": true
+      },
+      {
+        "shortcode": "archlinux",
+        "url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/103/original/99c023086e5259b2.png",
+        "static_url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/103/static/99c023086e5259b2.png",
+        "visible_in_picker": true
+      },
+      {
+        "shortcode": "terminal",
+        "url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/127/original/398662c04f1d032f.png",
+        "static_url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/127/static/398662c04f1d032f.png",
+        "visible_in_picker": true
+      },
+      {
+        "shortcode": "python",
+        "url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/124/original/7e1fe81995650028.png",
+        "static_url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/124/static/7e1fe81995650028.png",
+        "visible_in_picker": true
+      },
+      {
+        "shortcode": "vim",
+        "url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/130/original/a242fcb178ca0a0f.png",
+        "static_url": "https://cdn.fosstodon.org/custom_emojis/images/000/025/130/static/a242fcb178ca0a0f.png",
+        "visible_in_picker": true
+      },
+      {
+        "shortcode": "idle",
+        "url": "https://cdn.fosstodon.org/custom_emojis/images/000/068/439/original/34414397f51ab00b.png",
+        "static_url": "https://cdn.fosstodon.org/custom_emojis/images/000/068/439/static/34414397f51ab00b.png",
+        "visible_in_picker": true
+      }
+    ],
+    "fields": [
+      {
+        "name": "Pronouns",
+        "value": "She / Her",
+        "verified_at": null
+      },
+      {
+        "name": "Location",
+        "value": "Cruden Bay, Scotland",
+        "verified_at": null
+      },
+      {
+        "name": "Git",
+        "value": "<a href=\"https://codeberg.org/JustineSmithies\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">codeberg.org/JustineSmithies</span><span class=\"invisible\"></span></a>",
+        "verified_at": "2022-11-17T22:42:08.808+00:00"
+      },
+      {
+        "name": "Web",
+        "value": "<a href=\"https://justine.smithies.me.uk\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">justine.smithies.me.uk</span><span class=\"invisible\"></span></a>",
+        "verified_at": "2022-11-18T12:21:54.238+00:00"
+      }
+    ]
+  },
+  "media_attachments": [],
+  "mentions": [
+    {
+      "id": "1",
+      "username": "kev",
+      "url": "https://fosstodon.org/@kev",
+      "acct": "kev"
+    }
+  ],
+  "tags": [],
+  "emojis": [],
+  "card": null,
+  "poll": null
+}

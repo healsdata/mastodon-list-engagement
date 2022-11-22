@@ -10,7 +10,7 @@ class AccountExtractor
     public function getAccounts(array $tootJson) : array
     {
         $accounts = [];
-        $accounts[] = $tootJson['account']['acct'];
+        $accounts[] = $tootJson['account']['id'];
         return $accounts;
     }
 }

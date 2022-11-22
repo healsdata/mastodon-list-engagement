@@ -20,4 +20,4 @@ $engagementListRefresher = $container->get(EngagementListRefresher::class);
 
 $accountCount = $engagementListRefresher->refresh();
 
-print $accountCount . " accounts found and added to the engagement list";
+print PHP_EOL . $accountCount . " accounts found and added to the engagement list";
